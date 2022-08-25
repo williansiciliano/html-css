@@ -12,16 +12,16 @@ body{
 main{
     background-color: white;
     border-radius: 10px; /*arredondar os cantos do fundo*/
-    box-shadow: 5px 5px 15px rgba(15, 24, 153, 0.781); /* sombra da caixa de fundo (desloc. dir-desloc.baixo-espalhamento-cor da sombra) */
+    box-shadow: 5px 5px 15px rgba(15, 24, 153, 0.781); /* sombra da caixa de fundo (desloc. dir - desloc.baixo - espalhamento - cor da sombra) */
     width: 600px; /* largura do fundo do main */
-    padding: 10px; /* adicionar uma margem ao fundo do main */
-    margin: auto; /* deixar sempre centralizado, mesmo alterando o tamanho da janela */
+    padding: 10px; /* adicionar uma margem ao conteúdo do main */
+    margin: auto; /* deixar sempre centralizado horizontalmente, mesmo alterando o tamanho da janela */
 }
 
 h1{
     color: #8C0F99;
     text-align: center; /* alinhamento do texto */
-    text-shadow: 1px 1px 2px black; /* sombra do texto (desloc. dir-desloc.baixo-espalhamento-cor da sombra) */ 
+    text-shadow: 1px 1px 2px black; /* sombra do texto (desloc. dir - desloc.baixo - espalhamento - cor da sombra) */ 
 }
 
 h2{
