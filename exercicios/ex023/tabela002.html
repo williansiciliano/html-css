@@ -13,6 +13,7 @@
         table{
             width: 550px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -30,6 +31,21 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even){ /*( 2n) */
+            background-color: lightgray;
+            /* no lugar de (2n) poderia ser (even); e para começar na primeira linha poderíamos colocar (2n-1) ou (odd) */
+        }
+
+        tbody >tr:nth-child(odd){ /* (2n-1) */
+            background-color: white;
         }
 
         td.num{
@@ -177,5 +193,18 @@
         </tfoot>
 
     </table>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quaerat quibusdam optio quos laborum aspernatur, commodi magnam nesciunt eveniet? Quos iste nam dolores illum atque sunt minima, adipisci dicta ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo pariatur fugit porro a fuga distinctio exercitationem aut, odit veniam aliquid expedita error nulla maiores molestias eius hic doloribus sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempora ea accusamus magnam, voluptatibus est, debitis earum praesentium laborum rem iure delectus animi minima nobis minus commodi aperiam maiores libero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cumque libero! Necessitatibus ipsam, est asperiores atque fugiat cum neque ad facere obcaecati veniam fuga aspernatur vel reprehenderit maiores ea. Amet?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quaerat quibusdam optio quos laborum aspernatur, commodi magnam nesciunt eveniet? Quos iste nam dolores illum atque sunt minima, adipisci dicta ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo pariatur fugit porro a fuga distinctio exercitationem aut, odit veniam aliquid expedita error nulla maiores molestias eius hic doloribus sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempora ea accusamus magnam, voluptatibus est, debitis earum praesentium laborum rem iure delectus animi minima nobis minus commodi aperiam maiores libero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cumque libero! Necessitatibus ipsam, est asperiores atque fugiat cum neque ad facere obcaecati veniam fuga aspernatur vel reprehenderit maiores ea. Amet?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quaerat quibusdam optio quos laborum aspernatur, commodi magnam nesciunt eveniet? Quos iste nam dolores illum atque sunt minima, adipisci dicta ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo pariatur fugit porro a fuga distinctio exercitationem aut, odit veniam aliquid expedita error nulla maiores molestias eius hic doloribus sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempora ea accusamus magnam, voluptatibus est, debitis earum praesentium laborum rem iure delectus animi minima nobis minus commodi aperiam maiores libero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cumque libero! Necessitatibus ipsam, est asperiores atque fugiat cum neque ad facere obcaecati veniam fuga aspernatur vel reprehenderit maiores ea. Amet?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quaerat quibusdam optio quos laborum aspernatur, commodi magnam nesciunt eveniet? Quos iste nam dolores illum atque sunt minima, adipisci dicta ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo pariatur fugit porro a fuga distinctio exercitationem aut, odit veniam aliquid expedita error nulla maiores molestias eius hic doloribus sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempora ea accusamus magnam, voluptatibus est, debitis earum praesentium laborum rem iure delectus animi minima nobis minus commodi aperiam maiores libero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cumque libero! Necessitatibus ipsam, est asperiores atque fugiat cum neque ad facere obcaecati veniam fuga aspernatur vel reprehenderit maiores ea. Amet?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quaerat quibusdam optio quos laborum aspernatur, commodi magnam nesciunt eveniet? Quos iste nam dolores illum atque sunt minima, adipisci dicta ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo pariatur fugit porro a fuga distinctio exercitationem aut, odit veniam aliquid expedita error nulla maiores molestias eius hic doloribus sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempora ea accusamus magnam, voluptatibus est, debitis earum praesentium laborum rem iure delectus animi minima nobis minus commodi aperiam maiores libero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cumque libero! Necessitatibus ipsam, est asperiores atque fugiat cum neque ad facere obcaecati veniam fuga aspernatur vel reprehenderit maiores ea. Amet?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quaerat quibusdam optio quos laborum aspernatur, commodi magnam nesciunt eveniet? Quos iste nam dolores illum atque sunt minima, adipisci dicta ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo pariatur fugit porro a fuga distinctio exercitationem aut, odit veniam aliquid expedita error nulla maiores molestias eius hic doloribus sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempora ea accusamus magnam, voluptatibus est, debitis earum praesentium laborum rem iure delectus animi minima nobis minus commodi aperiam maiores libero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, cumque libero! Necessitatibus ipsam, est asperiores atque fugiat cum neque ad facere obcaecati veniam fuga aspernatur vel reprehenderit maiores ea. Amet?</p>
+
 </body>
 </html>
