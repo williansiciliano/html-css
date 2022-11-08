@@ -9,4 +9,7 @@
 
 <a href="https://williansiciliano.github.io/projeto-social/"> Executar o Projeto Redes Sociais</a>
 
-<a href="https://williansiciliano.github.io/nlw-10-copa/"> Executar o Projeto Calendário da Copa do Mundo 2022 </a>
+<a href="https://williansiciliano.github.io/nlw-10-copa/"> Executar o Projeto Calendário da Copa do Mundo 2022 (criado pela Rocketseat) </a>
+
+<a href="https://williansiciliano.github.io/projeto-calendario-copa-2022/"> Executar o Projeto Calendário da Copa do Mundo de 2022 da FIFA (modificado por mim)</a>
+
