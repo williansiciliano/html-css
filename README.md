@@ -8,3 +8,5 @@
 <a href="https://williansiciliano.github.io/projeto-cordel/">Executar o Projeto Cordel</a>
 
 <a href="https://williansiciliano.github.io/projeto-social/"> Executar o Projeto Redes Sociais</a>
+
+<a href="https://williansiciliano.github.io/nlw-10-copa/"> Executar o Projeto Calendário da Copa do Mundo 2022 </a>
