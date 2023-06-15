@@ -1,2 +1,41 @@
 @charset "UTF-8";
 
+.botao{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 89, 255);
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color 5s ease-in-out;
+    transition:all .1s ease-in-out;
+    box-shadow:5px 5px 1px black, 
+                inset 0 0 5px rgb(0, 15, 43, 1),
+                inset 0 0 8px rgb(0, 15, 43, .75),
+                inset 0 0 10px rgba(0, 15, 43, 0.5),
+                inset 0 0 0 40px rgba(0, 15, 43, 0.24); 
+}
+
+.botao:hover{
+    /* background-color: rgb(0, 40, 114); */
+    cursor: pointer;
+}
+
+.botao:active{
+    transform: translate(5px, 5px);
+    box-shadow:0px 0px 0px black;
+    background-color: rgb(11, 50, 122);
+    border-color: rgb(11, 50, 122);
+    
+}
+
+.botao > span{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    
+}
